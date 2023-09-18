@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_autoSource_1695007496455-pr-trigger-input-set
+  identifier: Build_autoSource_1695007496455prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_autoSource_1695007496455
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
